@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+
+}
+.card{
+
+margin: 20px;
+box-sizing: border-box;
+border-radius: 20px;
+font-size: 2rem;
+padding: 20px;
+text-align: center;}
+
+
+#card1{
+    background: radial-gradient(rgb(255, 255, 255),rgb(201, 87, 87));
+box-shadow:10px 10px 50px red ;
+}
+#card2{
+    background: radial-gradient(rgb(255, 255, 255),rgb(133, 228, 121));
+    box-shadow:10px 10px 50px rgb(21, 201, 66) ;
+}
+#card3{
+    background: radial-gradient(rgb(255, 255, 255),rgb(153, 206, 236));
+    /* box-shadow:10px 10px 50px rgb(0, 247, 255) ; */
+    /* shadow inside he box */
+    box-shadow: inset 3px 90px rgb(0, 119, 255);
+    /* multiple shadow */
+    box-shadow: 10px 10px blue, 15px 15px green;
+}
+#card1 h2{
+    text-shadow: 5px 5px 10px red;
+}
+#card2 h2{
+    text-shadow: 5px 5px 10px rgb(43, 255, 0);
+}
+#card3 h2{
+    text-shadow: 5px 5px 10px rgb(0, 153, 255);
+}
