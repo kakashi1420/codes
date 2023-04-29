@@ -1,0 +1,170 @@
+.navbar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 1.8cm;
+    background: white;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.item{
+    display: flex;
+    /* padding: 0.4cm; */
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0cm;
+    box-sizing: border-box;
+    text-shadow: 0 0 1px black;
+
+
+}
+.logo1{  box-sizing: border-box;
+    height: 1.6cm;
+    width: 2.8cm;
+    padding-left: 1cm;
+    
+  
+}
+.item li{
+    /* border: 1px solid black; */
+    padding-right: 1cm;
+    padding-top: 0.6cm;
+}
+
+
+.buttons1{
+    display: flex;
+    margin-left: 4cm;
+}
+
+.color{
+    background: transparent;
+    border-radius: 20px;
+    height: 1.2cm;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    margin-left: 0.5cm;
+
+
+}
+.color1{
+    background: transparent;
+    border-radius: 20px;
+    height: 1.2cm;
+    width: 2cm;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    
+position: relative;
+left: -80px;
+color: rgb(0, 0, 0);
+background-color: rgb(5, 110, 40);
+}
+.color:nth-child(1){
+    background: rgb(132, 114, 175);
+    padding-left: 0.3cm;
+    padding-right: 0.3cm;
+}
+.color:nth-child(2){ background: rgb(245, 130, 197);
+    padding-left: 0.3cm;
+    padding-right: 0.3cm;}
+.color:nth-child(3){
+    background: rgb(224, 188, 70);
+    padding-left: 0.3cm;
+    padding-right: 0.3cm;
+}
+.color:nth-child(4){ background: rgb(126, 240, 150);
+    padding-left: 1.5cm;
+    padding-right: 0.3cm;
+    position: relative;
+    left: 60px; 
+    
+}
+
+
+
+
+button{
+    cursor: pointer;
+}
+
+
+.logos{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    padding: 0.5cm;
+
+}
+.first{
+    color: white;
+    background: rgb(58, 55, 71);
+    width: 100vw;
+  
+    }
+
+ .firstcenter{
+    padding-top: 6.5cm;
+    width: 100vw;
+   
+    text-align: center;
+    padding-bottom: 6.5cm;
+ }   
+ h1{
+    font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif; }
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ .pinkpara{
+    color: rgb(182, 96, 125);
+    font-size: 25px;
+ }
+ .search1{
+    padding: 5px;
+    width: 8cm;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 24px;
+
+ }
+ .sbutton{
+    outline: 0;
+    background-color: aquamarine;
+    width: 2cm;
+    padding: 5px;
+    font-size: 24px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    white-space: normal;
+ }
+
+/*    
+    .first::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-size: 40px;
+    background-image:
+      radial-gradient(circle at 20px -10px , #fff 24px, transparent 26px);
+    }
+      .first::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-size: 40px;
+    background-image:
+      radial-gradient(circle at 20px -10px , transparent 24px, #fff 26px);
+    } */
