@@ -105,6 +105,7 @@ button{
     color: white;
     background: rgb(58, 55, 71);
     width: 100vw;
+    height: 18.8cm;
   
     }
 
@@ -144,27 +145,201 @@ font-family: Verdana, Geneva, Tahoma, sans-serif; }
     border-top-right-radius: 25px;
     white-space: normal;
  }
+ .sure{
+    font-size: 22px;
+    text-decoration: underline;
+ }
 
-/*    
-    .first::before{
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 30px;
-      background-size: 40px;
-    background-image:
-      radial-gradient(circle at 20px -10px , #fff 24px, transparent 26px);
-    }
-      .first::after{
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 30px;
-      background-size: 40px;
-    background-image:
-      radial-gradient(circle at 20px -10px , transparent 24px, #fff 26px);
-    } */
+ .first::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 90%;
+    width: 64%;
+    height: 160px;
+    background-color:rgb(207, 255, 238) ;
+    right: -100px;
+    opacity: 1;;
+    bottom: -87px;
+}
+.first::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 90%;
+    width: 71.1%;
+    height: 150px;
+    background-color: rgb(58, 55, 71);
+    left: -310px;
+    bottom: -25px;
+    /* border: 2px solid red; */
+}
+.second{
+    display: flex;
+    background-color:rgb(207, 255, 238) ;
+}
+
+.secondleft{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 18cm;
+    text-align: center;
+    
+    padding-top: 5cm;
+    font-size: 20px;
+}
+.black{
+    font-size: 80px;
+}
+.colorss1{
+   
+    border-radius: 20px;
+    height: 1.2cm;
+    width: 5cm;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    margin-left: 0.5cm;
+    background-color: rgb(1, 121, 55);
+}
+.colorss2{
+   
+    border-radius: 20px;
+    width: 5cm;
+    height: 1.2cm;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    margin-left: 0.5cm;
+    background-color: rgba(241, 238, 21, 0.541);
+}
+.colorss3{width: 5cm;
+    border-radius: 20px;
+    height: 1.2cm;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    background-color: rgb(58, 55, 71);
+    color: white;
+    margin-left: 0.5cm;
+}
+.colorss4{
+   width: 5cm;
+    border-radius: 20px;
+    height: 1.2cm;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: pink;
+    padding: 6px;
+    margin-left: 0.5cm;
+}
+.secondright{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 11cm;
+   
+    box-shadow: 0 0 10px gray;
+    
+    margin-top: 5cm;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+.htmlbox{
+    /* width: 100%;
+    height: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 0.3cm;
+padding-top: 0.7cm;
+padding-left: 0.4cm;
+background-color: white;
+}
+.codebox{
+    /* border: 2px solid blue;  */
+    font-size: 16px;
+    margin: 0.5cm;
+    background-color: rgb(58, 55, 71);
+    padding: 0.5cm;
+    color: white;
+}
+.try{
+    border-radius: 20px;
+    height: 1.2cm;
+    width: 5cm;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px;
+    margin-left: 0.5cm;
+    background-color: rgb(55, 180, 122);
+}
+.he{
+    color: aquamarine;
+}
+.bo{
+    color: pink;
+}
+.thirdleft{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 18cm;
+    text-align: center;
+    
+    padding-top: 5cm;
+    font-size: 20px;
+}
+.third{
+    display: flex;
+    background-color:rgba(240, 255, 106, 0.527) ;
+}
+.colorss11{
+    width: 5cm;
+     border-radius: 20px;
+     height: 1.2cm;
+     font-size: 16px;
+     margin-top: 10px;
+     background-color: rgb(192, 255, 224);
+     padding: 6px;
+     margin-left: 0.5cm;
+     /* color: white; */
+ }
+ .colorss33{
+    width: 5cm;
+     border-radius: 20px;
+     height: 1.2cm;
+     font-size: 16px;
+     margin-top: 10px;
+     background-color: rgb(5, 5, 5);
+     padding: 6px;
+     margin-left: 0.5cm;
+     color: white;
+ }
+ .colorss44{
+    width: 5cm;
+     border-radius: 20px;
+     height: 1.2cm;
+     font-size: 16px;
+     margin-top: 10px;
+     background-color: pink;
+     padding: 6px;
+     margin-left: 0.5cm;
+ }
+ 
+ .thirdright{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 11cm;
+   
+    box-shadow: 0 0 10px gray;
+    padding-top: 0.7cm;
+padding-left: 0.4cm;
+    margin-top: 5cm;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 6px;
+ }
